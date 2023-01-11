@@ -1,4 +1,4 @@
-FROM httpd:web
+FROM web
 
 RUN rm /usr/local/apache2/htdocs/index.html
 
