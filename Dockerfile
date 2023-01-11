@@ -1,4 +1,4 @@
-FROM 9b7fb8ff4413
+FROM httpd:latest
 
 RUN rm /usr/local/apache2/htdocs/index.html
 
