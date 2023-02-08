@@ -3,7 +3,7 @@ node{
      git 'https://github.com/kabilan2255/testjob.git'
    }
 }
- stage('Compile-Package'){
+<!-- stage('Compile-Package'){
 
       def mvnHome =  tool name: 'maven3', type: 'maven'   
       sh "${mvnHome}/bin/mvn clean package"
@@ -39,5 +39,5 @@ node{
    sh 'docker run -d -p 8090:8080 --name tomcattest saidamo/myweb:0.0.2' 
    }
 }
-}
+}-->
   
